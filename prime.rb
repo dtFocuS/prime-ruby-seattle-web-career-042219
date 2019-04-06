@@ -4,6 +4,7 @@ def prime?(number)
     true 
   else
     int = [1, 2, 3, 7]
-    
+    int.each do |divisor|
+      
   end
 end  
