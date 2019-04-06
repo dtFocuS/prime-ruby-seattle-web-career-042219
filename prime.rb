@@ -3,6 +3,8 @@ def prime?(number)
   prime = true
   if number == 2 || number == 3 || number == 7
     prime = true 
+  elsif number <= 0 
+    prime = false;
   else
     int = [2, 3, 4, 5, 6, 7, 8, 9]
     prime = true;
