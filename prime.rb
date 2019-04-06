@@ -1,5 +1,6 @@
 # Add  code here!
 def prime?(number)
+  prime = true
   if number <= 3 || number == 7
     true 
   else
@@ -7,7 +8,7 @@ def prime?(number)
     prime = true;
     int.each do |divisor|
        prime = false if number % divisor == 0 
-    end  
-      
+    end 
   end
+  prime
 end  
